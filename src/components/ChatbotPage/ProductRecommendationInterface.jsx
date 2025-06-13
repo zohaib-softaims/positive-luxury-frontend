@@ -9,7 +9,7 @@ const ProductRecommendationInterface = () => {
       <div className="container max-w-none @container">
         <div className="px-2 @3xl:px-20 px-2 space-y-4 md:space-y-6">
           <h2 className="text-base md:text-lg text-[#787878] mt-16 mb-4 md:mb-6">
-            {recommendedProducts ? "Here is the impact report" : `Building your impact report now....`}
+            {recommendedProducts ? " " : `Building your impact report now....`}
           </h2>
 
           {!recommendedProducts ? (
