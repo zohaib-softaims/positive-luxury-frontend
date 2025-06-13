@@ -26,8 +26,6 @@ const IndustrySelection = () => {
 
   return (
     <div className="px-4 w-full">
-      <h2 className="text-lg mb-8 text-[#EEEEEE]">Select your industry first</h2>
-
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {loading ? (
           Array.from({ length: 3 }).map((_, index) => <SkeletonIndustryCard key={index} />)

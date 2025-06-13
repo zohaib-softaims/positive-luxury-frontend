@@ -63,7 +63,7 @@ const EquipmentSelection = () => {
             selectedEquipment ? "bg-[#FFFFFF]" : "bg-[#4AA6A4]/14"
           } cursor-pointer text-black font-bold rounded-full p-4 flex flex-col items-center justify-center gap-6 mt-10 mx-auto`}
         >
-          Find My Ideal Equipment
+          Move to Chat Conversation
         </button>
       )}
     </div>

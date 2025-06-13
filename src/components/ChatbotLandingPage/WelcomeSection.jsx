@@ -32,7 +32,7 @@ const WelcomeSection = () => {
         <div className="flex-1 flex items-center justify-center">
           <div className="">
             <h1 className="text-2xl text-white md:text-3xl mb-6">
-              I will ask you a few quick questions regarding ${equipment?.name} to build a personalized action plan for you.
+              I will ask you a few quick questions regarding {equipment?.name} to build a personalized action plan for you.
             </h1>
 
             <button
