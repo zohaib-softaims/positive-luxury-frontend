@@ -6,6 +6,7 @@ import ConfirmationModal from "../../global/ConfirmationModal";
 import api from "../../../utils/apiClient";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import logo from "../../../../public/images/positive.png";
 export const AdminSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -44,12 +45,11 @@ export const AdminSidebar = () => {
       `}
       >
         <div className="p-4 flex items-center justify-between border-b border-[#1a1e24] h-16">
-          <Link to="/" className="flex items-center">
-            <span className="text-xl font-bold">
-              <span className="text-white">group</span>
-              <span className="text-[#4aa6a4]">ups</span>
-            </span>
+          <Link to="/" className="flex items-start">
+            <img src={logo} alt="Logo" className="w-3 h-3 object-contain mt-1" />
+            <span className="text-xl font-bold text-white">Positive Luxury</span>
           </Link>
+
           <button onClick={() => setIsOpen(false)} className="text-white z-100 md:hidden p-1 rounded-md hover:bg-[#1a1e24]">
             <X size={20} />
           </button>

@@ -3,7 +3,7 @@ import { Building2, Cpu, HelpCircle, Home, MessageSquare, Settings, User, Packag
 export const adminSidebarItems = [
   { icon: Home, label: "Dashboard", path: "/admin/dashboard" },
   { icon: Building2, label: "Industries", path: "/admin/industries" },
-  { icon: Cpu, label: "Equipment", path: "/admin/equipment" },
+  { icon: Cpu, label: "SubCategory", path: "/admin/equipment" },
   { icon: HelpCircle, label: "Questions", path: "/admin/questions" },
   { icon: Brain, label: "AI Snippets", path: "/admin/ai-snippets" },
   { icon: Package, label: "Products", path: "/admin/products" },

@@ -32,9 +32,9 @@ const WelcomeSection = () => {
         <div className="flex-1 flex items-center justify-center">
           <div className="">
             <h1 className="text-2xl text-white md:text-3xl mb-6">
-              Hi! I can help narrow down {equipment?.name} options for you without selling to you :)
+              I will ask you a few quick questions regarding ${equipment?.name} to build a personalized action plan for you.
             </h1>
-            <p className="text-[#4aa6a4] text-2xl mb-8">I'll ask you Qs to guide us. You can ask me Qs too.</p>
+
             <button
               onClick={() => navigate(`/${industryName}/${equipmentName}/chat`)}
               className="bg-white text-[#030d13] cursor-pointer font-medium py-3 px-8 rounded-full hover:bg-gray-100 transition-colors"
